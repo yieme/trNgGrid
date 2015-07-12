@@ -1,7 +1,7 @@
 ﻿"use strict";
 var TrNgGrid;
 (function (TrNgGrid) {
-    TrNgGrid.version = "3.1.4";
+    TrNgGrid.version = "3.1.5-fa";
     (function (SelectionMode) {
         SelectionMode[SelectionMode["None"] = 0] = "None";
         SelectionMode[SelectionMode["SingleRow"] = 1] = "SingleRow";
@@ -1299,9 +1299,9 @@ var TrNgGrid;
         TrNgGrid.columnFilterCssClass = "tr-ng-column-filter";
         TrNgGrid.columnFilterInputWrapperCssClass = "";
         TrNgGrid.columnSortActiveCssClass = "tr-ng-sort-active text-info";
-        TrNgGrid.columnSortInactiveCssClass = "tr-ng-sort-inactive text-muted glyphicon glyphicon-chevron-down";
-        TrNgGrid.columnSortReverseOrderCssClass = "tr-ng-sort-order-reverse glyphicon glyphicon-chevron-down";
-        TrNgGrid.columnSortNormalOrderCssClass = "tr-ng-sort-order-normal glyphicon glyphicon-chevron-up";
+        TrNgGrid.columnSortInactiveCssClass = "tr-ng-sort-inactive text-muted fa fa-chevron-down";
+        TrNgGrid.columnSortReverseOrderCssClass = "tr-ng-sort-order-reverse fa fa-chevron-down";
+        TrNgGrid.columnSortNormalOrderCssClass = "tr-ng-sort-order-normal fa fa-chevron-up";
         TrNgGrid.rowSelectedCssClass = "active";
         TrNgGrid.footerCssClass = "tr-ng-grid-footer form-inline";
     }).run(function () {
