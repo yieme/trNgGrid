@@ -1,5 +1,9 @@
 ### trNgGrid is a feature rich data grid based on the popular AngularJs framework and making use of plain HTML table elements.
 
+#### Changes to original
+
+- Use [Font Awesome](http://fontawesome.io/) Sort Order Chevron's instead of Glyphicons
+
 #### Why another one?
 Simply because everything else you're gonna find out there is either:
 - breaking the separation of concerns, forcing you to initialize it inside a controller, and not inside the view
